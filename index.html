@@ -1,78 +1,130 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | อภินันท์ คำสุด</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Portfolio | อภินันท์ คำสุด</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;500;700&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
 
-<header>
-    <img src="assets/profile.jpg" alt="Profile" class="profile">
-    <h1>อภินันท์ คำสุด</h1>
-    <p>นักเรียนชั้นมัธยมศึกษาปีที่ 6</p>
+<nav>
+
+<div class="logo">
+Portfolio
+</div>
+
+<ul>
+
+<li><a href="index.html" class="active">หน้าหลัก</a></li>
+
+<li><a href="about.html">เกี่ยวกับฉัน</a></li>
+
+<li><a href="education.html">การศึกษา</a></li>
+
+<li><a href="projects.html">ผลงาน</a></li>
+
+<li><a href="contact.html">ติดต่อ</a></li>
+
+</ul>
+
+</nav>
+
+<header class="hero">
+
+<div class="hero-text">
+
+<h1>สวัสดีครับ 👋</h1>
+
+<h2>ผม <span>อภินันท์ คำสุด</span></h2>
+
+<p>
+นักเรียนชั้นมัธยมศึกษาปีที่ 6
+<br>
+สนใจด้านการพัฒนาเว็บไซต์ การเขียนโปรแกรม
+และเทคโนโลยีสารสนเทศ
+</p>
+
+<a href="about.html" class="btn">
+รู้จักผมเพิ่มเติม
+</a>
+
+</div>
+
+<div class="hero-image">
+
+<img src="assets/profile.jpg" alt="Profile">
+
+</div>
+
 </header>
 
-<section>
-    <h2>เกี่ยวกับฉัน</h2>
-    <p>
-        สวัสดีครับ ผมชื่อ <strong>อภินันท์ คำสุด</strong>
-        กำลังศึกษาอยู่ชั้นมัธยมศึกษาปีที่ 6
-        มีความสนใจด้านการเขียนโปรแกรม การพัฒนาเว็บไซต์
-        และเทคโนโลยีสารสนเทศ
-    </p>
-</section>
+<section class="welcome">
 
-<section>
-    <h2>ทักษะ (Skills)</h2>
+<h2>ยินดีต้อนรับสู่ Portfolio ของผม</h2>
 
-    <div class="card">
-        <h3>HTML</h3>
-        <p>พื้นฐาน</p>
-    </div>
+<p>
 
-    <div class="card">
-        <h3>CSS</h3>
-        <p>พื้นฐาน</p>
-    </div>
+เว็บไซต์นี้จัดทำขึ้นเพื่อรวบรวมข้อมูลส่วนตัว
+ประวัติการศึกษา ทักษะ ผลงาน และช่องทางการติดต่อ
+โดยพัฒนาด้วย HTML, CSS และ JavaScript
 
-    <div class="card">
-        <h3>JavaScript</h3>
-        <p>กำลังศึกษา</p>
-    </div>
-
-    <div class="card">
-        <h3>Python</h3>
-        <p>กำลังศึกษา</p>
-    </div>
+</p>
 
 </section>
 
-<section>
-    <h2>โปรเจกต์</h2>
+<section class="cards">
 
-    <div class="card">
-        <h3>Portfolio Website</h3>
-        <p>เว็บไซต์แนะนำตัวที่สร้างด้วย HTML CSS และ JavaScript</p>
-    </div>
+<div class="card">
 
-</section>
+<h3>👨‍💻 เกี่ยวกับฉัน</h3>
 
-<section>
-    <h2>ติดต่อ</h2>
+<p>
+ข้อมูลส่วนตัว ความสนใจ และเป้าหมายในอนาคต
+</p>
 
-    <p>Email : your@email.com</p>
-    <p>GitHub :
-        <a href="https://github.com/USERNAME" target="_blank">
-            github.com/USERNAME
-        </a>
-    </p>
+<a href="about.html">อ่านเพิ่มเติม →</a>
+
+</div>
+
+<div class="card">
+
+<h3>🎓 การศึกษา</h3>
+
+<p>
+ประวัติการศึกษาและทักษะที่ได้รับ
+</p>
+
+<a href="education.html">อ่านเพิ่มเติม →</a>
+
+</div>
+
+<div class="card">
+
+<h3>💻 ผลงาน</h3>
+
+<p>
+ตัวอย่างเว็บไซต์และโปรเจกต์ที่เคยพัฒนา
+</p>
+
+<a href="projects.html">อ่านเพิ่มเติม →</a>
+
+</div>
 
 </section>
 
 <footer>
-    © 2026 Apinan Khamsut
+
+<p>
+© 2026 Portfolio | อภินันท์ คำสุด
+</p>
+
 </footer>
 
 <script src="script.js"></script>
